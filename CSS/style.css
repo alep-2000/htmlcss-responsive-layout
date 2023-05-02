@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .header-blu{
     background-color: #0084fd;
+    margin-bottom: 30px;
 }
 
 .header-flex{
@@ -47,7 +52,7 @@
     padding: 5px 10px;
 }
 /* END HEADER */
-
+/* MAIN */
 .flex{
     display: flex;
     flex-direction: column;
@@ -58,11 +63,76 @@
     flex-direction: column;
 }
 
-.col-double, .col-30{
-    width: calc(100% -20px);
-    height: 300px;
-    background-color: red;
+.content-flex{
+    width: 100%;
+}
+
+.col-double{
+    width: calc(100% / 2 * 2 - 20px);
+    background-color: #b5ddff;
+    border-radius: 20px;
     margin: 10px;
+}
+
+.col-30{
+    width: calc(100% -20px);
+    background-color: #b5ddff;
+    border-radius: 20px;
+    height: 300px;
+    margin: 10px;
+}
+
+.left-content{
+    margin: 30px 0;
+}
+
+#img{
+    width: 200px;
+    margin: 30px 70px 0;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: #007ffd;
+}
+
+p{
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 60px;
+    line-height: 25px;
+}
+
+#button{
+    width: 50%;
+    background-color: #0084fd;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 15px;
+    
+}
+
+.fa-brands{
+    font-size: 16px;
+    padding: 10px 5px 10px 35px;
+}
+
+span{
+    font-size: 16px;
+    color: white;
+}
+
+.fa-file-code, .fa-compass-drafting, .fa-laptop-code, .fa-bullhorn{
+    font-size: 60px;
+    margin: 20px 140px 0;
+}
+
+.main{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0;
 }
 
 #planning{
@@ -113,7 +183,8 @@
     margin: 10px auto;
     background-color: aqua;
 }
-
+/* END MAIN*/
+/* FOOTER */
 #footer{
     background-color: black;
 }
@@ -124,6 +195,7 @@
     margin: 10px auto;
     background-color: darkorange;
 }
+/* END FOOTER */
 /* TABLET */
 @media screen and (min-width:768px){
     .container{
@@ -141,10 +213,28 @@
 
     .col-double{
         width: calc(100% / 3 * 2 - 20px);
+        height: 300px;
+    }
+
+    .left-content{
+        width: 50%;
+    }
+
+    .right-content{
+        width: 50%;
     }
 
     .col-30{
         width: calc(100% / 3 - 20px);
+    }
+
+    .fa-file-code, .fa-compass-drafting, .fa-bullhorn{
+        font-size: 60px;
+        margin: 20px 120px 0;
+    }
+
+    .fa-laptop-code{
+        margin-left: 110px;
     }
 }
 /* DESKTOP */
