@@ -169,7 +169,8 @@ span{
     background-color: lightskyblue;
     border-radius: 20px;
 }
-
+/* END SECTION-1 */
+/* SECTION-2 */
 .background{
     background-color: #9792e4;
 }
@@ -240,32 +241,117 @@ span{
     font-size: 10px;
     justify-content: center;
 }
-
+/* END SECTION-2 */
+/* SECTION-3 */
 .col-100{
+    width: calc(100% - 20px);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.col-100 h4, .col-100 h2, .col-100 p{
+    text-align: center;
+}
+
+.col-100 h4{
+    font-size: 15px;
+    margin: 20px auto;;
+}
+
+.col-100 h2{
+    margin-bottom: 20px;
+    color: #9792e4;
+}
+
+.col-100 p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.col-100 img{
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.background h4, .background h2, .background p{
+    color: white;
+}
+/* END SECTION-3 */
+/* SECTION-4 */
+#benefits{
+    width: 100%;
+    margin: 70px 0;
+    height: 1500px;
+    background-color: #9792e4;
+}
+
+.col-10{
+    width: calc(100% - 20px);
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+
+#benefits .col-30{
     width: calc(100% - 20px);
     height: 200px;
     margin: 10px;
-    background-color: gold;
+    background-color: green;
 }
 
-#benefits{
-    background-color: #9792e4;
+.col-75 div, .col-25 div{
+    margin: 0 40px;
 }
 
 .col-75{
     width: calc(100% - 20px);
-    height: 400px;
     margin: 10px;
-    background-color: brown;
     float: left;
+}
+
+.col-75 h2{
+    font-size: 25px;
+    color: #9792e4;
+    margin-bottom: 20px;
+}
+
+.col-75 p{
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
 .col-25{
     width: calc(100% - 20px);
-    height: 400px;
     margin: 10px;
-    background-color: greenyellow;
     float: left;
+}
+
+.col-25 img{
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    border-radius: 70px;
+}
+
+.col-25 h2{
+    color: #9792e4;
+}
+
+.col-25 #small{
+    width: 140px;
+    background-color: #9792e4;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+#small i, #small span{
+    font-size: 12px;
+    margin: 5px;
 }
 
 #started{
