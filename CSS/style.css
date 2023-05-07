@@ -168,6 +168,7 @@ span{
 .content{
     background-color: lightskyblue;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 /* END SECTION-1 */
 /* SECTION-2 */
@@ -460,15 +461,41 @@ span{
 /* END SECTION-6 */
 /* SECTION-7 */
 #footer{
-    background-color: black;
+    background-color: #333333;
 }
 
 .col-55{
     width: calc(100% - 20px);
-    height: 150px;
-    margin: 10px auto;
-    background-color: darkorange;
+    margin: 20px auto 40px;
 }
+
+.col-55 p{
+    font-size: 13px;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    color: white;
+}
+
+#copyright{
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+#copyright div{
+    display: inline-block;
+    color: #9792e4;
+    text-decoration: underline;
+}
+
+.col-55 span{
+    font-size: 13px;
+    margin: 20px 140px;
+    text-decoration: underline;
+    color: #9792e4;
+}
+
+
 /* END SECTION-7 */
 
 /* MEDIA QUERY */
