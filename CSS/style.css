@@ -400,10 +400,62 @@ span{
 }
 
 .col-60{
-    width: calc(60% - 20px);
-    height: 300px;
-    margin: 10px auto;
-    background-color: aqua;
+    width: calc(100% - 20px);
+    margin: 30px auto;
+}
+
+.col-60 h4{
+    text-align: center;
+    color: #cbc9f1;
+    margin: 30px 0 20px;
+}
+
+.col-60 h3{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+.col-60 h2{
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+    color: #fdc15f;
+}
+
+.col-60 p{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+#big{
+    width: 170px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 90px 20px 90px;
+    justify-content: center;
+}
+
+#big div{
+    font-size: 15px;
+    color: #9792e4;
+    padding: 10px 50px;
+}
+
+#text div{
+    text-align: center;
+}
+
+#text div{
+    font-size: 13px;
+    color: white;
+}
+
+#text span{
+    text-align: center;
+    font-size: 13px;
+    text-decoration: underline;
 }
 /* END SECTION-6 */
 /* SECTION-7 */
@@ -412,7 +464,7 @@ span{
 }
 
 .col-55{
-    width: calc(55% - 20px);
+    width: calc(100% - 20px);
     height: 150px;
     margin: 10px auto;
     background-color: darkorange;
